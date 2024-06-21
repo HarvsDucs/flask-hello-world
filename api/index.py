@@ -10,4 +10,5 @@ def home():
 
 @app.route('/about')
 def about():
-    return 'About'
+    x = 2
+    return f"Message is: {plustwo(x)}"
