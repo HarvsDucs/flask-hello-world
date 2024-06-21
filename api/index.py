@@ -1,5 +1,5 @@
 from flask import Flask
-from function import plustwo
+from functions import plustwo
 
 app = Flask(__name__)
 
@@ -10,5 +10,4 @@ def home():
 
 @app.route('/about')
 def about():
-    x = 2
-    return f"Message is: {plustwo(x)}"
+    return "abouts"
